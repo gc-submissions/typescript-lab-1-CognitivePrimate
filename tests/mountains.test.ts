@@ -1,5 +1,6 @@
 import { findNameOfTallestMountain } from "../src/mountains";
 
+
 describe("findNameOfTallestMountain", () => {
   test("middle mountain", () => {
     const name = findNameOfTallestMountain([
