@@ -13,5 +13,5 @@ export const calcAverageProductPrice = (productArray: Product[]): number => {
     });
     let average: number = averagePriceSetup / productArray.length;
     console.log(average);
-    return average;
+    return isNaN(average) ? average = 0 : average;
 }
